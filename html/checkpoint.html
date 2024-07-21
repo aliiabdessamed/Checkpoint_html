@@ -5,24 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Checkpoint html
+        Checkpoint 
     </title>
+    <link rel="stylesheet" href="C:\Users\LENOVO\Desktop\checkpoint_html\css\style.css">
     <link rel="icon" href="C:\Users\LENOVO\Desktop\checkpoint_html\assets\Gomycode.png">
 </head>
 
 
 <body>
     <header>
-        <nav>
-            <a href="#Home">Home</a>
-            <a href="#About">About</a>
-            <a href="#work">work</a>
-            <a href="#Resume">Resume</a>
-            <a href="#Contact">Contact</a>
+        <nav class="nav" >
+            <div class="logo">
+                <img src="C:\Users\LENOVO\Desktop\checkpoint_html\assets\pngegg (1).png" alt="SpaceX logo">
+            </div>
+            <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#Resume">Resume</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+            </ul>
+            
         </nav>
+           
     </header>
     <main>
-        <Section>
+        <Section class="section">
             <div id="Home">
                 <h1><b>Home</b></h1>
                 <p>
@@ -32,7 +40,7 @@
                 <img src="C:\Users\LENOVO\Desktop\checkpoint_html\assets\ElonMusk.jpeg">
             </div>
         </Section>
-        <section>
+        <Section class="section">
             <div id="About">
             <h1><b>About</b></h1>
             <p>
@@ -48,7 +56,7 @@
             </p>
             </div>
         </section>
-        <section>
+        <Section class="section">
             <div id="work">
                 <h1><b> Work </b></h1>
                 <ol type="1">
@@ -62,7 +70,7 @@
                 <p><h3>And a lot of other companies</h3></p>
             </div>
         </section>
-        <section>
+        <Section class="section">
             <div id="Resume">
                 <h1><b>Resume</b></h1>
                 <p>Even though it does'nt sound like a resume for Elon Musk, but we'll talk <br>
@@ -71,31 +79,43 @@
                 </p>
                 <video src="C:\Users\LENOVO\Desktop\checkpoint_html\assets\Elon Musk’s “5 Minute Rule” Explained.mp4" width="300" height="250" autoplay></video>
             </div>
-            <div>
-                <p><h2><i>Do you want to leave a message to Elon Musk? <br>
-                Feel free to write!!</i></h2></p>
+            <div class="text">
+                <h2 class="title">Do you want to leave a message to Elon Musk? <br>
+                Feel free to write!!</h2>
                <textarea name="elon text area" id="elon text area" cols="30" rows="15">Hi Elon!
                </textarea>
             </div>
         </section>
     </main>
     <footer>
-        <div id="Contact">
-            <h1><b>Contact</b></h1>
-            <p>Well, Elon Musk is active on social media via his own application "X" <br>
-                <b>Click below to access his profile</b>
-            </p>
-            <h2><a href="https://x.com/elonmusk">Elon Musk Profile X</a></h2>
+        <section class="section">
+            <div id="Contact" >
+                <h1 class="title"><b>Contact</b></h1>
+                <p class="ok">Well, Elon Musk is active on social media via his own application "X" <br>
+                    <b class="bold">Click below to access his profile</b>
+                </p>
+                <div class="Elon">
+                    <h2><a href="https://x.com/elonmusk">Elon Musk Profile X</a></h2>
+    
+                </div>
+            </div>
+        </section>
+        <section class="mllouta">
+            <div>
+                <form action="Push">
+                    <h1 class="sub">Subscribe to our email newsteller</h1>
+                 <label>Name: </label>
+                <input type="text" name="Name" id="Name"> 
+                <label>Date of Birth </label>
+                <input type="date" name="Date of birth" id="Date of birth">
+                <label>Email: </label>
+                <input type="email" name="email" id="email"> <br>
+                <button class="btn">Submit</button>
+                </form>
+
+           
         </div>
-        <div>
-            <label>
-                <p><h1><b><i>Subscribe to our email newsteller</i></b></h1></p>
-                Name: <input type="text" name="Name" id="Name"> <br>
-                Date of Birth: <input type="date" name="Date of birth" id="Date of birth"> <br>
-                Email:<input type="email" name="email" id="email"> <br>
-                <input type="button" value="Submit">
-            </label>
-        </div>
+        </section>
     </footer>
 
 </body>

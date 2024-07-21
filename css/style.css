@@ -1,0 +1,202 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav ul {
+    padding-top: 25px;   
+    background-color:rgb(227, 227, 234) ;
+    text-align: end;
+}
+.nav ul li {
+    display: inline;
+    text-align: justify;
+    padding-left: 30px;
+}
+.nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: darkgoldenrod;
+    text-decoration: none;
+    text-transform:uppercase;
+
+}
+.nav ul li a:hover {
+    color: blue;
+}
+.logo{
+    position: absolute;
+    left: 10%;
+    transform: translateX(-50%); 
+}
+
+.logo img {
+    height: 50px; 
+}
+.nav ul li a:link{
+    color: aqua;
+}
+.title{
+    font-weight: bold;
+    font-style: bold;
+    padding-left: 50px;
+    color: blue;
+}
+.section{
+    
+    font-weight: bold;
+    border: 20px rgb(151, 39, 39) ;
+    border-radius: 20px;
+    background-color: rgb(237, 200, 104);
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+.section h1{
+    font-weight: bold;
+    font-style: bold;
+    padding-left: 50px;
+    color: blue;padding-left: 180px;
+  
+}
+
+.section p , h3 {
+    font-weight: 50px;
+    font-style: bold;
+    padding-left: 50px;
+    color: #209ab0;
+    text-align: justify;
+}
+
+.section ol li{
+    font-weight: 50px;
+    font-style: bold;
+    padding-left: 50px;
+    color: rgb(32, 154, 176);
+}
+.section img{
+      font-weight: bold;
+    font-style: bold;
+    padding-left: 50px;
+    color: blue;padding-left: 180px;
+}
+.section video{
+    padding-left: 180px;
+}
+.text textarea{
+    border: gray solid 5px;
+    background-color: #e3e39e;
+    border-radius: 20px;
+    width:95%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+}
+.btn {
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+.btn:hover{
+    color: blue;
+}
+
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+form input[type="email"]{
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 4px;
+    background-color: #e3e39e;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    width: 650px;
+}
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+
+form input[type="text"] {
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 4px;
+    background-color: #e3e39e;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    width: 650px;
+
+}
+form input[type="date"] {
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 4px;
+    background-color: #e3e39e;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    width: 650px;
+    
+}
+form input[type="submit"]:hover {
+    background-color: #e3e39e;
+}
+.btn{
+    width: 100%;
+    font-size: 100%;
+    background-color: #e3e39e;
+}
+.Contact{
+    color: #209ab0;
+}
+.ok{
+    color: #209ab0;
+}
+.bold{
+    text-decoration: underline;
+}
+.Elon{
+    text-align: center;
+    color: black;
+    text-shadow: #333;
+}
+.Elon:link{
+    color: blue;
+}
+.Elon:hover{
+    color: #209ab0;
+}
+.sub{
+    font-weight: bold;
+    font-style: bold;
+    text-align: center;
+    color: blue;
+}
+.mllouta{
+    font-weight: bold;
+    border: 20px rgb(151, 39, 39) ;
+    border-radius: 20px;
+    background-color: rgb(237, 200, 104);
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
